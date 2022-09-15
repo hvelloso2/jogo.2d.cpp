@@ -31,15 +31,15 @@ int main()
                 {
                     mapa_1 [i][j] = '*';
                 }
-                if(j == 0)
+                else if(j == 0)
                 {
                     mapa_1 [i][j] = '*';
                 }
-                if(i == 24)
+                else if(i == 24)
                 {
                     mapa_1 [i][j] = '*';
                 }
-                if(j == 24)
+                else if(j == 24)
                 {
                     mapa_1 [i][j] = '*';
                 }
